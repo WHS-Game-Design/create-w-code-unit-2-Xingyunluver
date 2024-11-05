@@ -233,7 +233,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3118cdfb64ad5904c84faa7db0918b73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 20
+  FoodPreFab: {fileID: 2076530163004360512, guid: 6c418df2b0d258e4d935426cf21b1740, type: 3}
 --- !u!1 &425805626
 GameObject:
   m_ObjectHideFlags: 0
