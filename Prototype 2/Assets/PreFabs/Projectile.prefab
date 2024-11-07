@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 692864411479771810}
   - component: {fileID: 3342819123479113674}
   m_Layer: 0
-  m_Name: Food
+  m_Name: Projectile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
