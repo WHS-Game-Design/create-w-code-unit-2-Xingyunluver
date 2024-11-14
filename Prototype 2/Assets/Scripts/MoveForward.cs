@@ -18,5 +18,17 @@ public class MoveForward : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
+        if(transform.position.z < -limitZ)
+        {
+            Debug.Log("Fail! Get Out!");
+        }
+    }
+
+    void OnTriggerEnter(Collider collider)
+    {
+        Debug.Log("Dusk's rain it too shall fall");
+        Destroy(collider.gameObject);
+        Destroy(gameObject);
     }
 }
